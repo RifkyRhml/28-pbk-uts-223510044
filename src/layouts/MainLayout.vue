@@ -4,7 +4,7 @@
       <q-toolbar>
         <q-toolbar-title> UAS PBK Rifky rahmel </q-toolbar-title>
         <q-tabs align="left">
-          <q-route-tab to="/Todo" label="Todolist" />
+          <q-route-tab to="/" label="Todolist" />
           <q-route-tab to="/Post" label="Post" />
           <q-route-tab to="/Album" label="Album" />
         </q-tabs>
