@@ -14,7 +14,7 @@ const router = createRouter({
       component: MainLayout,
       children: [
         {
-          path: "/Todo",
+          path: "/",
           component: Todo,
         },
         {
