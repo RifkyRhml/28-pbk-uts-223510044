@@ -9,12 +9,12 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: "",
+      path: "/Todo",
       name: "mainLayout",
       component: MainLayout,
       children: [
         {
-          path: "/",
+          path: "/Todo",
           component: Todo,
         },
         {
